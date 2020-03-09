@@ -6,10 +6,9 @@ namespace AssignmenttextProcessing
     {
         static void Main(string[] args)
         {
-            // Step 1: Access the ajax.csv and print it out
+          // Step 1: Access the ajax.csv and print it out
             InputTheDatafile file1 = new InputTheDatafile();
             file1.GetData();
-            // Step 2: implement the method ConvertLineIntoObject by doing string tokenization
         }
     }
 
@@ -22,12 +21,11 @@ namespace AssignmenttextProcessing
 
             // Read the file and display it line by line.  
             System.IO.StreamReader file =
-                new System.IO.StreamReader(@"U:\Users\744220\source\repos\AssignmenttextProcessing\AJAX.csv");
+                new System.IO.StreamReader(@"U:\Users\744220\source\repos\cics\AJAX.csv");
             while ((line = file.ReadLine()) != null)
             {
                 ConvertLineIntoObject(line);
                 counter++;
-                Console.WriteLine("line number {0}", counter);
             }
 
             file.Close();
@@ -39,75 +37,64 @@ namespace AssignmenttextProcessing
 
         public void ConvertLineIntoObject(String inputLine)
         {
-            String a = inputLine;
-            DataRecord dr = new DataRecord();
-            // take inputLine
-            // use substrings to breaks it apart around the commas
-            dr.FULLADDRESS = "";
-
-            // sample code to walk over a string
-
-            for (int i = 0; i < a.Length; i++)
-            {
-                if (a[i] == ',')
-                { Console.WriteLine("Found a comma at position {0}", i); }
-
-            }
+            Console.WriteLine(inputLine);
         }
     }
 
     class DataRecord
     {
 
-        public String FULLADDRESS;
+        String FULLADDRESS;
 
-        public String Type;
+        String Type;
 
-        public String Description;
+        String Description;
 
-        public String Community;
+        String Community;
 
-        public int DaysOnMarket;
+        int DaysOnMarket;
 
-        public double Percentage;
+        double Percentage;
 
-        public double ListPrice;
+        double ListPrice;
 
-        public double SoldPrice;
+        double SoldPrice;
 
-        public String ExpiryDate;
+        String ExpiryDate;
 
-        public String StreetName;
+        String StreetName;
 
-        public String StNumber;
+        String StNumber;
 
-        public String Bedroom;
+        String Bedroom;
 
-        public String BedPlus;
+        String BedPlus;
 
-        public String Washroom;
+        String Washroom;
 
-        public String Garage;
+        String Garage;
 
-        public int ParkingDriveSpaces;
+        int ParkingDriveSpaces;
 
-        public string Pool;
+        string Pool;
 
-        public string ContractDate;
+        string ContractDate;
 
-        public string SoldDate;
+        string SoldDate;
 
-        public string RemarksForClients;
+        string RemarksForClients;
 
-        public string Extras;
+        string Extras;
 
-        public string Address;
+        string Address;
 
-        public string PostalCode;
+        string PostalCode;
 
-        public string Municipality;
+        string Municipality;
 
-        public string District;
+        string District;
+
+
+
     }
     }
-
