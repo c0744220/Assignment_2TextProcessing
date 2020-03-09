@@ -1,0 +1,11 @@
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\bin\Debug\netcoreapp3.1\AssignmenttextProcessing.exe
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\bin\Debug\netcoreapp3.1\AssignmenttextProcessing.deps.json
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\bin\Debug\netcoreapp3.1\AssignmenttextProcessing.runtimeconfig.json
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\bin\Debug\netcoreapp3.1\AssignmenttextProcessing.runtimeconfig.dev.json
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\bin\Debug\netcoreapp3.1\AssignmenttextProcessing.dll
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\bin\Debug\netcoreapp3.1\AssignmenttextProcessing.pdb
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\obj\Debug\netcoreapp3.1\AssignmenttextProcessing.csprojAssemblyReference.cache
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\obj\Debug\netcoreapp3.1\AssignmenttextProcessing.AssemblyInfoInputs.cache
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\obj\Debug\netcoreapp3.1\AssignmenttextProcessing.AssemblyInfo.cs
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\obj\Debug\netcoreapp3.1\AssignmenttextProcessing.dll
+U:\Users\744220\source\repos\AssignmenttextProcessing\AssignmenttextProcessing\obj\Debug\netcoreapp3.1\AssignmenttextProcessing.pdb
